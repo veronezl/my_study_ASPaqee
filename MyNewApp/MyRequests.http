@@ -1,1 +1,14 @@
-GET http://localhost:5099/
+GET http://localhost:5099/todos
+
+###
+
+Post http://localhost:5099/todos
+content-type: application/json
+
+{
+    "id": 1,
+    "name": "Write demo",
+    "dueDate": 2023-12-31,
+    "isCompleted": false
+}
+###
